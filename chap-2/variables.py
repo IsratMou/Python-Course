@@ -16,3 +16,18 @@ d = False # d is a boolean variable
 e = None # e is a none type variable. ekhane nothing k mark korar jonno none type use kora hoy
 
 
+
+# Single variable
+s = "Bob"
+print(s)
+
+# Multiple Variables
+s = "Alice"
+age = 25
+city = "New York"
+print(s, age, city)
+
+#output:Bob
+#Alice 25 New York
+
+
