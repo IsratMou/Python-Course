@@ -20,3 +20,18 @@ print(character1) #output: a .cause 0 to 1
 
 for x in "banana":
  print(x) 
+
+
+#Check if "free" is present in the following text:
+
+txt = "The best things in life are free!"
+print("free" in txt)
+
+txt2 = "The best things in life are free!"
+if "free" in txt2:
+ print("Yes, 'free' is present.")
+
+#Check if "expensive" is NOT present in the following text:
+
+txt3 = "The best things in life are free!"
+print("expensive" not in txt3)
