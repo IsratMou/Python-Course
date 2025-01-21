@@ -45,6 +45,18 @@ print(text.isdigit())  # Output: True
 text = "banana"
 print(text.count("a"))  # Output: 3. Counts the occurrences of a substring in the string.
 
+#The strip() method removes any whitespace from the beginning or the end:
+
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
+
+#Display the price with 2 decimals:
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+
 
 
 
