@@ -56,6 +56,10 @@ price = 59
 txt = f"The price is {price:.2f} dollars"
 print(txt)
 
+#Check if an object is an integer or not:
+
+x = 200
+print(isinstance(x, int))
 
 
 
