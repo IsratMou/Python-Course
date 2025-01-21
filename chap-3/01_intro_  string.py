@@ -15,3 +15,8 @@ print(nameslice) #output=Har(0,1,2 th index)
 
 character1=name2[1]
 print(character1) #output: a .cause 0 to 1
+
+#Loop through the letters in the word "banana":
+
+for x in "banana":
+ print(x) 
