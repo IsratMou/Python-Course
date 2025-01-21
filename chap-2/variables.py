@@ -30,4 +30,25 @@ print(s, age, city)
 #output:Bob
 #Alice 25 New York
 
+#Unpack a list:
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#output multiple variables, separated by a comma
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z) 
+
+#output multiple variables, separated by a +
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)  #For numbers, the + character works as a mathematical operator
+
+#note:The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
 
